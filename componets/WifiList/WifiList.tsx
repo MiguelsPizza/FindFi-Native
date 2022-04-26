@@ -43,4 +43,4 @@ const WifiList = ({ wifiList }) => {
   )
 }
 
-export default WifiList
+export default WifiList;

@@ -1,6 +1,6 @@
-import { View, Text } from 'react-native'
+import {View, Text} from 'react-native'
 import React from 'react'
-import { DataTable } from 'react-native-paper';
+import {DataTable} from 'react-native-paper';
 
 interface networkInfo {
   ssid: string,
@@ -17,4 +17,4 @@ const WifiListItem: React.FC<networkInfo> = ({ssid, level}) => {
   )
 }
 
-export default WifiListItem
+export default WifiListItem;
