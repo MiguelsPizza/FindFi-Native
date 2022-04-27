@@ -19,6 +19,7 @@ import {
   View,
 } from 'react-native';
 import WifiList from './componets/WifiList/WifiList';
+import Proximeter from './componets/Proximeter/Proximeter';
 import {
   Colors,
 
@@ -82,6 +83,7 @@ const App = () => {
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={backgroundStyle}>
+            <Proximeter currentNetwork={currentNetwork} />
             <WifiList wifiList={wifiList} currentNetwork={currentNetwork}/>
         </ScrollView>
       </SafeAreaView>
